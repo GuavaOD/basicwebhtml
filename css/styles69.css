@@ -19,6 +19,12 @@
     padding: 15px    
 }
 
+.foodbutt2{
+    color: burlywood;
+    font-size: 35px;
+    border: 5px solid blue;
+}
+
 .block {
     float:left;
     width:30%
@@ -62,5 +68,14 @@ button:hover{
 }
 
 .extra{
-   
+   display: flex;
+   font-size: 19px;
+}
+
+.extra div{
+    flex:1
+}
+
+.sentence{
+    padding: 18px;
 }
